@@ -1,0 +1,33 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oh Yeah...</title>
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<body style="background-image: url(media/photos/background.jpg)">
+<main role="main" class="container">
+<div class="container mt-4 mb-4 p-4 d-flex justify-content-center" >
+    <div class="card p-4">
+        <div class=" image d-flex flex-column justify-content-center align-items-center"> <button class="btn btn-secondary"> <img src="media/photos/myimage.jpg" alt="" width="350" /></button> <span class="name mt-3">Дивиров Арсен</span> <span class="idd">Почта - ArsenDivirov@yandex.ru</span>
+            <div class="d-flex flex-row justify-content-center align-items-center mt-3"> <span class="number"> Место проживания: {{ city }} </span> </div>
+            <!-- <div class=" d-flex mt-2"> <form action="/edit_profile"><button class="btn1 btn-dark">Edit Profile</button></form></div> -->
+            <div class="d-flex flex-row justify-content-center align-items-center mt-3" style="width: 600px"> <span class="number"> Мой самое сильное увлечение - это программирование. Этим я в основном занимаюсь большую часть времени. Это мне приносит наибольший интерес, среди всех моих занятий. Но помимо этого я также увлекаюсь хоккеем и велоспортом :)  </span> </div>
+            <div class="d-flex flex-row justify-content-center align-items-center mt-3" style="width: 600px"> <span class="number"> Я закончил Лицей Академии Яндекса (вошёл в топ сто лучших), частенько занимаюсь телеграмм ботами и автоматизацией браузера. Хорошо знаю базы данных, увлекаюсь языками Java и C++. </span> </div>
+
+
+            <div class=" px-2 rounded mt-4 date "> <a href="https://t.me/kiz_zyaka" ><img src="media/photos/telegram-logo.png" width="50" /></a>  <a href="https://vk.com/disssabender"><img src="media/photos/vk-logo.png" width="50"></a></div>
+        </div>
+    </div>
+</div>
+</main>
+
+
+</body>
+<script rel="stylesheet" href="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+</body>
+</html>
