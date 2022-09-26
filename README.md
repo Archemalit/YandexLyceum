@@ -15,5 +15,10 @@ pip install django
 ```sh
 python manage.py runserver
 ```
+или
+```sh
+python3 manage.py runserver
+```
+
 
 Затем идем в браузер и переходим по ссылке  http://127.0.0.1:8000/
