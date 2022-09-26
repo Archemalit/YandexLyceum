@@ -13,7 +13,6 @@ pip install django
 Перейдите в директорию **Yandex** и запустите сервер
 
 ```sh
-cd Yandex
 python manage.py runserver
 ```
 
